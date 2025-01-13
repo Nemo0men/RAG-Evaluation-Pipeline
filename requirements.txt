@@ -1,0 +1,23 @@
+python-dotenv==1.0.1             # For reading environment variables stored in .env file
+langchain==0.2.2                 # Core LangChain functionality
+langchain-community==0.2.3       # Community-contributed LangChain tools
+langchain-openai==0.1.8          # OpenAI integration for embeddings
+unstructured==0.14.4             # Document loading utilities
+
+# chromadb dependency: on Mac use `conda install onnxruntime -c conda-forge`
+# For Windows users, install Microsoft Visual C++ Build Tools before `onnxruntime`.
+# Install onnxruntime first to avoid chromadb installation issues.
+# onnxruntime==1.17.1            
+
+chromadb==0.5.0                  # Vector storage
+
+openai==1.31.1                   # OpenAI API library for embeddings
+tiktoken==0.7.0                  # Tokenization utilities for embeddings
+
+# To install markdown dependencies, run:
+# pip install "unstructured[md]" after installing the requirements.
+# Leave this line commented out.
+
+datasets>=2.0.0
+unittest2>=1.1.0
+tempfile
